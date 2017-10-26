@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>图书管理</title>
 </head>
 <body>
-
+<h1><a href="Book_edit">编辑图书</a></h1>
+<h1><a href="Book_delete">删除图书</a></h1>
 </body>
 </html>

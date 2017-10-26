@@ -3,6 +3,10 @@ package com.struts2;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class HelloWorldAction extends ActionSupport {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String name;
 
 	public String getName() {

@@ -15,6 +15,15 @@
             <result name="FAILURE">/Failure.jsp</result>
       </action>
    </package>
+   <package name="bookmanage" extends="struts-default">
+     
+      <action name="*_*" 
+            class="com.struts2.{1}Action" 
+            method="{2}">
+            <result name="edit">/WEB-INF/pages/bookedit.jsp</result>
+            <result name="delete">/WEB-INF/pages/bookdelete.jsp</result>
+      </action>
+   </package>
    
 
 </struts>
